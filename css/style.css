@@ -19,6 +19,7 @@
    
   html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
   
   body{
@@ -331,9 +332,9 @@
     margin-bottom: 20px;
     cursor: pointer;
     border-radius: 5px;
-    box-shadow: 1px 1px 10px 0px  rgba(94,90,90,0.49);
-    -webkit-box-shadow: 1px 1px 10px 0px rgba(94,90,90,0.49); 
-    box-shadow: 1px 1px 10px 0px rgba(94,90,90,0.49);
+    box-shadow: 1px 1px 10px -5px  rgba(94,90,90,0.49);
+    -webkit-box-shadow: 1px 1px 10px -5px rgba(94,90,90,0.49); 
+    box-shadow: 1px 1px 10px -5px rgba(94,90,90,0.49);
   }
 
   .my-works .work-boxes a{
@@ -352,7 +353,9 @@
 
   .my-works .work-boxes .box h4{
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: normal;
+    color: var(--text-color);
   }
   /* End home page my work */
 
@@ -407,8 +410,9 @@
     margin: 15px 0px;
     padding: 15px;
     width: 100%;
-    border: 1px solid #ccc;
+    border: 1px solid #E6E6E6;
     color: var(--text-color);
+    background-color: #FAFAFA;
     border-radius: 5px;
   }
 
@@ -432,6 +436,7 @@
   }
 
   .contact-me .contact-form .contact-me-btn{
+    background-color: #FAFAFA;
     border: 1px solid #ccc;
     color: var(--text-color);
     margin:0 auto;
