@@ -245,9 +245,19 @@
   .call-to-action .actions a{
     text-transform: capitalize;
     margin: 0 10px auto;
-    border: 1px solid var(--text-color);
+    border: none;
   }
+
+  .call-to-action .actions a{
+    background-color: var(--purple-color);
+    color: white;
+  }
+
   
+  .call-to-action .actions i{
+    color: var(--yellow-color);
+  }
+
   .call-to-action .actions a:hover{
     transform: scale(0.95);
     -webkit-transform: scale(0.95);
@@ -257,9 +267,6 @@
     -webkit-transition: 0.3s;
   }
 
-  .call-to-action .actions i{
-    color: var(--yellow-color);
-  }
 
   /* End home page call to action */
 
@@ -281,12 +288,9 @@
     font-size: 36px;
     font-weight: bold;
     text-transform: capitalize;
+    text-align: left;
   }
   
-  .my-works p{
-    max-width: 80%;
-  }
-
   .my-works h3::before{
     content: '';
     position: absolute;
@@ -314,7 +318,7 @@
     border-radius: 50%;
     border: 1px solid #333;
     bottom: -6px;
-    background-color: var(--red-color);
+    background-color: var(--yellow-color);
   }
   
   .my-works h3 i{
@@ -331,7 +335,6 @@
     width: 100%;
     margin-bottom: 20px;
     cursor: pointer;
-    border-radius: 5px;
     box-shadow: 1px 1px 10px -5px  rgba(94,90,90,0.49);
     -webkit-box-shadow: 1px 1px 10px -5px rgba(94,90,90,0.49); 
     box-shadow: 1px 1px 10px -5px rgba(94,90,90,0.49);
@@ -399,7 +402,7 @@
     border-radius: 50%;
     border: 1px solid #333;
     bottom: -6px;
-    background-color: var(--red-color);
+    background-color: var(--yellow-color);
   }
 
   .contact-me .contact-form{
